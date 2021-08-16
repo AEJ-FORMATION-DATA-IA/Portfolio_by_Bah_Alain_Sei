@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration:rgba(0, 0, 255, 0.685);  
+}
+
+.igs-nav{
+  position: fixed;
+  width: 100%;
+  background:rgb(0, 255, 42);
+}
+.igs-logo{
+
+}
+.igs-div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.igs-menu li{
+  list-style:none;
+  display: inline-block;
+}
+.igs-menu{
+
+}
+.home{
+  display: flex;
+  background: url(../images/picto-1.png);
+  height: 100vh;
+  color:rgba(0, 0, 255, 0.795);
+  min-height: 500px;
+}
+.home.igs-max-width{
+  margin: auto 0 auto 40px
+}
+.home.igs-home-content.text-1{
+  font-size: 27px;
+}
+.home.igs-home-content.text-2{
+  font-size: 75px;
+  font-weight: 600;
+  margin: -3px;
+  }
+.home.igs-home-content.text-3{
+    font-size: 27px;
+    font-weight:40px;
+    margin: 5px 0 ;
+    }
+.home.igs-home-content.text3 span{
+  color: rgb(0, 128, 43);
+  font-weight: 500;
+}
+.about .title{
+  text-align: center;
+  font-size: 40px;
+  font: weight 500px; ;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+}
+.about .igs-about-content .left img{
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+
